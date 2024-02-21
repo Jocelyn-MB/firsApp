@@ -1,20 +1,21 @@
 import Image from "next/image";
-//import styles from "./page.module.css";
-import styles from "@/styles/index.module.css"
+import styles from "@/styles/index.module.css";
 
 export default function Home() {
   return (
-    <main>
-      <div className={styles.container}>
+    <main >
+      {/* <div className={styles.container}>
         <nav className={styles.navbar}>
-          <a href="#">Home</a>
-          <a href="#">Acerca de</a>
+          <a href="./home">Home</a>
+          <a href="./acerca">Acerca de</a>
         </nav>
 
         <div>
-          <h2>YOS BLANCAS</h2>
+          <h1 className={styles.h1}>Jocelyn Magali</h1>
         </div>
-      </div>
-    </main>
-  );
+      </div> */}
+    </main>
+  );
 }
+
+//se quita <navigation>
