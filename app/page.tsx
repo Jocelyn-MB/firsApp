@@ -1,21 +1,24 @@
 import Image from "next/image";
-import styles from "@/styles/index.module.css";
+
+// import styles from "@/styles/index.module.css";
 
 export default function Home() {
   return (
-    <main >
-      {/* <div className={styles.container}>
-        <nav className={styles.navbar}>
-          <a href="./home">Home</a>
-          <a href="./acerca">Acerca de</a>
-        </nav>
-
-        <div>
-          <h1 className={styles.h1}>Jocelyn Magali</h1>
-        </div>
-      </div> */}
-    </main>
+    <div className="flex h-screen items-center static justify-center">
+      <div className="relative text-center">
+        <Image
+          src="/img/art.jpg"
+          width={500}
+          height={600}
+          alt="THEME_ART_EXHIBITION_GettyImages"
+        />
+        <p className="text-2x1 font-bold ">
+          Arte
+        </p>
+      </div>
+    </div>
   );
 }
+
 
 //se quita <navigation>

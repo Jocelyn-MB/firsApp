@@ -1,10 +1,10 @@
-import styles from "@/styles/index.module.css";
+import styles from "../../styles/index.module.css";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <div className={styles.container}>
-        <p className={styles.footerText}>© 2024 Yos. Todos los derechos reservados.</p>
+    <footer className="bg-black text-white py-8 ">
+      <div className="container mx-auto flex justify-center items-center">
+        <p className="font-semibold">© 2024 Yos. Todos los derechos reservados.</p>
       </div>
     </footer>
   );
