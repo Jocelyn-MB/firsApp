@@ -4,10 +4,7 @@ import Image from "next/image";
 import Head from 'next/head';
 import Counter from './components/Counter';
 
-// Importa los estilos si es necesario
-// import styles from "@/styles/index.module.css";
 
-// Componente para la sección de Arte
 function ArteSection() {
   return (
     <div className="flex h-screen items-center static justify-center">
@@ -26,7 +23,7 @@ function ArteSection() {
   );
 }
 
-// Componente principal Home que renderiza las secciones correspondientes
+// Componente principal Home que renderiza 
 export default function Home() {
   return (
     <div>
