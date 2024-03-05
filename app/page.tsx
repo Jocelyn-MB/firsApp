@@ -7,13 +7,14 @@ import Counter from './components/Counter';
 
 function ArteSection() {
   return (
-    <div className="flex h-screen items-center static justify-center">
+    <div className="flex h-full items-center static justify-center m-10">
       <div className="relative text-center">
         <Image
           src="/img/art.jpg"
           width={500}
-          height={600}
+          height={500}
           alt="THEME_ART_EXHIBITION_GettyImages"
+          style={{ maxWidth: "100%", height: "auto" , borderRadius: "10%"}}
         />
         <p className="text-2xl font-bold">
           Arte
