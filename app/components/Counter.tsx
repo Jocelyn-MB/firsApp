@@ -12,6 +12,11 @@ const Counter = () => {
     setCount(0);
 
   };
+
+  const decrement =()=>{
+    setCount(count - 1);
+
+  };
   useEffect(()=>{
     console.log('The count is:',count)
 
@@ -28,6 +33,8 @@ const Counter = () => {
        onClick={increment}>Incrementar</button>
       <button className="bg-indigo-900 text-white px-4 py-2 rounded mr-2 " 
       onClick={resetCounter}> Reiniciar a 0</button>
+      <button className="bg-indigo-900 text-white px-4 py-2 rounded mr-2 " 
+      onClick={decrement}> Decrementar</button>
       </div>
       </div>
     </div>
