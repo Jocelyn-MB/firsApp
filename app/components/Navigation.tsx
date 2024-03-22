@@ -5,14 +5,14 @@ const Navigation = () => {
   return (
     <nav className="flex justify-between items-center h-20 px-4 bg-black ">
         <a className="link-underline link-underline-black  text-white font-semibold" href="/">
-          Jocelyn Magali
+          Homee
         </a>
         <ul className="flex gap-4  text-white">
           <li>
-            <Link href="/home">Home</Link>
+            <Link href="/home">Login</Link>
           </li>
           <li>
-            <Link href="/acerca">About Me</Link>
+            <Link href="/acerca">Contacto</Link>
           </li>
         </ul>
      
